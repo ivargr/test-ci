@@ -27,3 +27,10 @@ jobs:
       - name: Where am I running?
         shell: cmd  # Use cmd instead of Powershell
         run: ver
+
+   macos-job:
+    runs-on: macos-latest
+    steps:
+      - name: Where am I running?
+        shell: cmd  # Use cmd instead of Powershell
+        run: uname
